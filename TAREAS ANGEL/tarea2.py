@@ -11,7 +11,7 @@ def encontrar_collatz_mas_largo(limite):
         n = inicio
         pasos = 0
         
-       
+        
         while n not in cache:
             if n % 2 == 0:
                 n = n // 2
